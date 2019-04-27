@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Proza+Libre|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.header-section{
+    background-color: rgba(26, 68, 78, 0.5);
+    text-align: center;
+    color: rgb(255, 255, 255);      
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+}
+.soc-media{
+    text-align: right;
+    padding-right: 1em;
+}
+.main-nav{
+    text-align: center;
+    background-color: rgba(70, 180, 207, 0.6);
+    font-size: 1em;
+    padding: .7em;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Proza Libre', sans-serif;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    display: inline;
+    padding: .1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+    
+
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.main-body{
+    background-color: rgb(231, 229, 227);
+}
+.main-para{
+    margin: 3em;
+    margin-top: 2em;
+    display: inline-block;
+    font-size: 1.6em;
+    color: #666;
+}
