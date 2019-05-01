@@ -60,3 +60,11 @@ html, body{
     font-size: 1.6em;
     color: #666;
 }
+.picture{
+    border-radius: 50%;
+    float: right;
+    margin-right: 10em;
+    margin-top: 2em;
+    background-color: rgba(70, 180, 207, 0.219);
+    shape-outside: circle()
+}
