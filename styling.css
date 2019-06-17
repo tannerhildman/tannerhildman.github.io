@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Proza+Libre|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,21 +10,22 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
 .header-section{
-    background-color: rgba(70, 180, 207, 0.6);
     text-align: center;
     color: rgb(255, 255, 255);      
     font-family: 'Shadows Into Light', cursive;
-    font-size: 2.5em;
+    font-size: 2em;
+    background:#187795;
+    background:-webkit-linear-gradient(45deg,#45b2cdda,#187795);   
 }
-.soc-media{
-    text-align: right;
-    padding-right: 1em;
+.header-img{
+    text-align: end;
 }
-
 .main-nav{
     text-align: center;
-    background-color:  rgba(26, 68, 78, 0.5);
+    background:  #1a444e80;
+    background: -webkit-linear-gradient(45deg,#1a444e80,#1a444e9d);
     font-size: 1em;
     padding: .7em;
     font-family: 'Shadows Into Light', cursive;
@@ -47,6 +49,8 @@ html, body{
     
 
 }
+
+
 .nav a:hover{
     background-color: rgba(255, 255, 255, 0.199);
 }
@@ -55,16 +59,44 @@ html, body{
 }
 .main-para{
     margin: 3em;
-    margin-top: 2em;
-    display: inline-block;
+    display: flexbox;
     font-size: 1.6em;
     color: #666;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    line-height: 1.7em;
+    font-size: 26px;
 }
+.link {
+    color: #BD2031; 
+    text-decoration: none;
+  }
+.link:hover{
+text-decoration: underline;
+color: rgba(192, 83, 94, 0.562); 
+}
+
+.link:active{
+    color: rgb(190, 87, 97);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .picture{
+    display: flex;
     border-radius: 50%;
     float: right;
     margin-right: 10em;
     margin-top: 2em;
-    background-color: rgba(70, 180, 207, 0.219);
-    shape-outside: circle()
+    margin-left: 10em;
+    background:-webkit-linear-gradient(45deg,#74ffbebe,hsla(192, 89%, 72%, 0.856));     
+    shape-outside: circle();
+    padding-top: 10px;
+}
+.footer{
+    background:  #1a444e80;
+    padding: 1.3em;
+    background: -webkit-linear-gradient(45deg,#34484d80,#3a4c509d);
+}
+.social{
+    margin-right: .3em;
 }
