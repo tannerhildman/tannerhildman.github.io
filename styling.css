@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Proza+Libre|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {font-family: 'Source Sans Pro', sans-serif;;}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    list-style: none;
+}
+h2 { margin-top: 0; 
+    text-align: center;
+    color: rgb(255, 255, 255);      
+    background:#187795;
+    background:-webkit-linear-gradient(45deg,#45b2cdda,#187795);   
+    padding: .75em;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    letter-spacing: 8px;
+    height: 60px;
+    font-size: 30pt;
+}   
+.links_items{
+    background-color:#299cbe;
+   display: flexbox;
+   max-width: 550px;
+   max-height: 80px;
+   margin: 0 auto 15px;
+   line-height: 1.5;
+   text-decoration: none;
+   transition: all 1s ease-in-out;
+   color: rgb(255, 255, 255);  
+   line-height: 500%;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 3%;
+    
+}
+
+
