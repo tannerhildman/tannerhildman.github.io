@@ -1,2 +1,0 @@
-# tannerhildman.github.io
-personalwebsite
